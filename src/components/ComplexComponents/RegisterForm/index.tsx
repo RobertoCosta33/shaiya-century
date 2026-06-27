@@ -4,24 +4,24 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import TextField from "components/SimpleComponents/TextField";
 import Button from "components/SimpleComponents/Button";
-import { useAuth } from "providers/AuthProvider";
 import * as S from "./styles";
 
 const RegisterForm = () => {
   const t = useTranslations("register");
   const router = useRouter();
-  const { register } = useAuth();
 
-  const [displayName, setDisplayName] = useState("");
+  const [nome, setNome] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
   const [error, setError] = useState("");
+  const [success, setSuccess] = useState("");
   const [loading, setLoading] = useState(false);
 
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
     setError("");
+    setSuccess("");
 
     if (password !== confirmPassword) {
       setError(t("password-mismatch"));
@@ -36,8 +36,22 @@ const RegisterForm = () => {
     setLoading(true);
 
     try {
-      await register(email, password, displayName);
-      router.push("/");
+      const res = await fetch("/api/register", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ nome, senha: password, email }),
+      });
+
+      const data = await res.json();
+
+      if (!res.ok) {
+        setError(data.message || t("error"));
+        return;
+      }
+
+      setSuccess(data.message);
+      // Redireciona para login após 2 segundos
+      setTimeout(() => router.push("/login"), 2000);
     } catch {
       setError(t("error"));
     } finally {
@@ -51,14 +65,15 @@ const RegisterForm = () => {
       <S.Subtitle>{t("subtitle")}</S.Subtitle>
 
       {error && <S.ErrorMessage>{error}</S.ErrorMessage>}
+      {success && <S.SuccessMessage>{success}</S.SuccessMessage>}
 
       <TextField
-        name="displayName"
+        name="nome"
         type="text"
         label={t("name-label")}
         placeholder={t("name-placeholder")}
-        value={displayName}
-        onChange={(e) => setDisplayName(e.target.value)}
+        value={nome}
+        onChange={(e) => setNome(e.target.value)}
         required
       />
 

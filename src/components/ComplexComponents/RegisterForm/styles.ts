@@ -40,3 +40,13 @@ export const ErrorMessage = styled.div`
   font-size: 1.3rem;
   text-align: center;
 `;
+
+export const SuccessMessage = styled.div`
+  padding: 1.2rem 1.6rem;
+  background: rgba(39, 174, 96, 0.1);
+  border: 1px solid ${({ theme }) => theme.colors.success};
+  border-radius: 0.4rem;
+  color: ${({ theme }) => theme.colors.success};
+  font-size: 1.3rem;
+  text-align: center;
+`;
