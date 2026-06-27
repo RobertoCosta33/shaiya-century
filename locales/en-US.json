@@ -1,0 +1,118 @@
+{
+  "header": {
+    "brand": "Centurion",
+    "logo-alt": "Shaiya Centurion Logo",
+    "home": "Home",
+    "features": "Features",
+    "classes": "Classes",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout"
+  },
+  "footer": {
+    "brand": "Shaiya Centurion",
+    "copyright": "All rights reserved."
+  },
+  "home": {
+    "hero": {
+      "title": "Centurion",
+      "subtitle": "Shaiya Private Server",
+      "description": "Two factions. One war. Choose your side in the epic battle between Light and Fury. Forge your legend in the world of Shaiya.",
+      "register": "Create Account",
+      "login": "Sign In"
+    },
+    "features": {
+      "title": "Forge Your Legend",
+      "subtitle": "A world where every choice carries weight, and glory is earned — never given.",
+      "pvp": {
+        "title": "Epic PvP Combat",
+        "description": "Battle in massive faction wars between the Alliance of Light and the Union of Fury."
+      },
+      "factions": {
+        "title": "Alliance vs Fury",
+        "description": "Two warring factions with unique races, classes, and storylines."
+      },
+      "classes": {
+        "title": "12 Unique Classes",
+        "description": "Choose your path among fighters, mages, archers, and more."
+      },
+      "goddess": {
+        "title": "Goddess Blessing",
+        "description": "Destroy the opposing faction's altars to earn server-wide buffs."
+      },
+      "world": {
+        "title": "Massive World",
+        "description": "Explore vast continents filled with dungeons, bosses, and treasures."
+      },
+      "free": {
+        "title": "Free to Play",
+        "description": "Join the battle at no cost. Your legend starts now."
+      }
+    },
+    "factions": {
+      "title": "Choose Your Path",
+      "subtitle": "Light against Fury — the eternal war demands your allegiance.",
+      "alliance": {
+        "title": "Alliance of Light",
+        "description": "Noble. Disciplined. Defenders of the sacred order."
+      },
+      "fury": {
+        "title": "Union of Fury",
+        "description": "Savage. Aggressive. Born from chaos and bloodlust."
+      }
+    },
+    "classes": {
+      "fighter": "Fighter",
+      "defender": "Defender",
+      "priest": "Priest",
+      "archer": "Archer",
+      "mage": "Mage",
+      "ranger": "Ranger",
+      "warrior": "Warrior",
+      "guardian": "Guardian",
+      "pagan": "Pagan",
+      "assassin": "Assassin",
+      "oracle": "Oracle",
+      "hunter": "Hunter"
+    },
+    "cta": {
+      "title": "Your Legend Starts Now",
+      "description": "Join the battle. Choose your faction. Forge your destiny.",
+      "button": "Begin Your Journey"
+    }
+  },
+  "login": {
+    "title": "Sign In",
+    "subtitle": "Enter the battlefield",
+    "email-label": "Email",
+    "email-placeholder": "your@email.com",
+    "password-label": "Password",
+    "password-placeholder": "Your password",
+    "submit": "Sign In",
+    "loading": "Signing in...",
+    "error": "Invalid email or password. Please try again.",
+    "no-account": "Don't have an account?",
+    "register-link": "Create one",
+    "or": "or",
+    "google-login": "Continue with Google"
+  },
+  "register": {
+    "title": "Create Account",
+    "subtitle": "Join the war of Teos",
+    "name-label": "Username",
+    "name-placeholder": "Your warrior name",
+    "email-label": "Email",
+    "email-placeholder": "your@email.com",
+    "password-label": "Password",
+    "password-placeholder": "Minimum 6 characters",
+    "confirm-password-label": "Confirm Password",
+    "confirm-password-placeholder": "Repeat your password",
+    "submit": "Create Account",
+    "loading": "Creating account...",
+    "error": "Could not create account. Please try again.",
+    "password-mismatch": "Passwords do not match.",
+    "password-min": "Password must be at least 6 characters.",
+    "has-account": "Already have an account?",
+    "login-link": "Sign in"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "header": {
+    "brand": "Centurion",
+    "logo-alt": "Logo Shaiya Centurion",
+    "home": "Início",
+    "features": "Recursos",
+    "classes": "Classes",
+    "login": "Entrar",
+    "register": "Cadastrar",
+    "logout": "Sair"
+  },
+  "footer": {
+    "brand": "Shaiya Centurion",
+    "copyright": "Todos os direitos reservados."
+  },
+  "home": {
+    "hero": {
+      "title": "Centurion",
+      "subtitle": "Servidor Privado Shaiya",
+      "description": "Duas facções. Uma guerra. Escolha seu lado na batalha épica entre Luz e Fury. Forje sua lenda no mundo de Shaiya.",
+      "register": "Criar Conta",
+      "login": "Entrar"
+    },
+    "features": {
+      "title": "Forje Sua Lenda",
+      "subtitle": "Um mundo onde cada escolha tem peso, e a glória é conquistada — nunca dada.",
+      "pvp": {
+        "title": "PvP Épico",
+        "description": "Batalhe em guerras massivas entre a Aliança da Luz e a União Fury."
+      },
+      "factions": {
+        "title": "Aliança vs Fury",
+        "description": "Duas facções em guerra com raças, classes e histórias únicas."
+      },
+      "classes": {
+        "title": "12 Classes Únicas",
+        "description": "Escolha seu caminho entre guerreiros, magos, arqueiros e mais."
+      },
+      "goddess": {
+        "title": "Bênção da Deusa",
+        "description": "Destrua os altares da facção rival para ganhar buffs no servidor."
+      },
+      "world": {
+        "title": "Mundo Gigante",
+        "description": "Explore continentes vastos repletos de masmorras, bosses e tesouros."
+      },
+      "free": {
+        "title": "Gratuito",
+        "description": "Entre na batalha sem custo. Sua lenda começa agora."
+      }
+    },
+    "factions": {
+      "title": "Escolha Seu Caminho",
+      "subtitle": "Luz contra Fury — a guerra eterna exige sua lealdade.",
+      "alliance": {
+        "title": "Aliança da Luz",
+        "description": "Nobres. Disciplinados. Defensores da ordem sagrada."
+      },
+      "fury": {
+        "title": "União Fury",
+        "description": "Selvagens. Agressivos. Nascidos do caos e da sede de sangue."
+      }
+    },
+    "classes": {
+      "fighter": "Fighter",
+      "defender": "Defender",
+      "priest": "Priest",
+      "archer": "Archer",
+      "mage": "Mage",
+      "ranger": "Ranger",
+      "warrior": "Warrior",
+      "guardian": "Guardian",
+      "pagan": "Pagan",
+      "assassin": "Assassin",
+      "oracle": "Oracle",
+      "hunter": "Hunter"
+    },
+    "cta": {
+      "title": "Sua Lenda Começa Agora",
+      "description": "Entre na batalha. Escolha sua facção. Forje seu destino.",
+      "button": "Inicie Sua Jornada"
+    }
+  },
+  "login": {
+    "title": "Entrar",
+    "subtitle": "Entre no campo de batalha",
+    "email-label": "E-mail",
+    "email-placeholder": "seu@email.com",
+    "password-label": "Senha",
+    "password-placeholder": "Sua senha",
+    "submit": "Entrar",
+    "loading": "Entrando...",
+    "error": "E-mail ou senha inválidos. Tente novamente.",
+    "no-account": "Não tem uma conta?",
+    "register-link": "Crie uma",
+    "or": "ou",
+    "google-login": "Entrar com Google"
+  },
+  "register": {
+    "title": "Criar Conta",
+    "subtitle": "Junte-se à guerra de Teos",
+    "name-label": "Nome de usuário",
+    "name-placeholder": "Nome do seu guerreiro",
+    "email-label": "E-mail",
+    "email-placeholder": "seu@email.com",
+    "password-label": "Senha",
+    "password-placeholder": "Mínimo 6 caracteres",
+    "confirm-password-label": "Confirmar Senha",
+    "confirm-password-placeholder": "Repita sua senha",
+    "submit": "Criar Conta",
+    "loading": "Criando conta...",
+    "error": "Não foi possível criar a conta. Tente novamente.",
+    "password-mismatch": "As senhas não coincidem.",
+    "password-min": "A senha deve ter no mínimo 6 caracteres.",
+    "has-account": "Já tem uma conta?",
+    "login-link": "Entrar"
+  }
+}

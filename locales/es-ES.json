@@ -1,0 +1,118 @@
+{
+  "header": {
+    "brand": "Centurion",
+    "logo-alt": "Logo Shaiya Centurion",
+    "home": "Inicio",
+    "features": "Características",
+    "classes": "Clases",
+    "login": "Entrar",
+    "register": "Registrarse",
+    "logout": "Salir"
+  },
+  "footer": {
+    "brand": "Shaiya Centurion",
+    "copyright": "Todos los derechos reservados."
+  },
+  "home": {
+    "hero": {
+      "title": "Centurion",
+      "subtitle": "Servidor Privado Shaiya",
+      "description": "Dos facciones. Una guerra. Elige tu bando en la batalla épica entre Luz y Fury. Forja tu leyenda en el mundo de Shaiya.",
+      "register": "Crear Cuenta",
+      "login": "Iniciar Sesión"
+    },
+    "features": {
+      "title": "Forja Tu Leyenda",
+      "subtitle": "Un mundo donde cada elección tiene peso, y la gloria se gana — nunca se da.",
+      "pvp": {
+        "title": "PvP Épico",
+        "description": "Lucha en guerras masivas entre la Alianza de la Luz y la Unión Fury."
+      },
+      "factions": {
+        "title": "Alianza vs Fury",
+        "description": "Dos facciones en guerra con razas, clases e historias únicas."
+      },
+      "classes": {
+        "title": "12 Clases Únicas",
+        "description": "Elige tu camino entre guerreros, magos, arqueros y más."
+      },
+      "goddess": {
+        "title": "Bendición de la Diosa",
+        "description": "Destruye los altares de la facción rival para obtener buffs en el servidor."
+      },
+      "world": {
+        "title": "Mundo Gigante",
+        "description": "Explora continentes vastos llenos de mazmorras, bosses y tesoros."
+      },
+      "free": {
+        "title": "Gratis",
+        "description": "Únete a la batalla sin costo. Tu leyenda comienza ahora."
+      }
+    },
+    "factions": {
+      "title": "Elige Tu Camino",
+      "subtitle": "Luz contra Fury — la guerra eterna exige tu lealtad.",
+      "alliance": {
+        "title": "Alianza de la Luz",
+        "description": "Nobles. Disciplinados. Defensores del orden sagrado."
+      },
+      "fury": {
+        "title": "Unión Fury",
+        "description": "Salvajes. Agresivos. Nacidos del caos y la sed de sangre."
+      }
+    },
+    "classes": {
+      "fighter": "Fighter",
+      "defender": "Defender",
+      "priest": "Priest",
+      "archer": "Archer",
+      "mage": "Mage",
+      "ranger": "Ranger",
+      "warrior": "Warrior",
+      "guardian": "Guardian",
+      "pagan": "Pagan",
+      "assassin": "Assassin",
+      "oracle": "Oracle",
+      "hunter": "Hunter"
+    },
+    "cta": {
+      "title": "Tu Leyenda Comienza Ahora",
+      "description": "Únete a la batalla. Elige tu facción. Forja tu destino.",
+      "button": "Inicia Tu Viaje"
+    }
+  },
+  "login": {
+    "title": "Iniciar Sesión",
+    "subtitle": "Entra al campo de batalla",
+    "email-label": "Correo electrónico",
+    "email-placeholder": "tu@email.com",
+    "password-label": "Contraseña",
+    "password-placeholder": "Tu contraseña",
+    "submit": "Iniciar Sesión",
+    "loading": "Iniciando sesión...",
+    "error": "Correo o contraseña inválidos. Inténtalo de nuevo.",
+    "no-account": "¿No tienes una cuenta?",
+    "register-link": "Crea una",
+    "or": "o",
+    "google-login": "Continuar con Google"
+  },
+  "register": {
+    "title": "Crear Cuenta",
+    "subtitle": "Únete a la guerra de Teos",
+    "name-label": "Nombre de usuario",
+    "name-placeholder": "Nombre de tu guerrero",
+    "email-label": "Correo electrónico",
+    "email-placeholder": "tu@email.com",
+    "password-label": "Contraseña",
+    "password-placeholder": "Mínimo 6 caracteres",
+    "confirm-password-label": "Confirmar Contraseña",
+    "confirm-password-placeholder": "Repite tu contraseña",
+    "submit": "Crear Cuenta",
+    "loading": "Creando cuenta...",
+    "error": "No se pudo crear la cuenta. Inténtalo de nuevo.",
+    "password-mismatch": "Las contraseñas no coinciden.",
+    "password-min": "La contraseña debe tener al menos 6 caracteres.",
+    "has-account": "¿Ya tienes una cuenta?",
+    "login-link": "Iniciar sesión"
+  }
+}
