@@ -8,7 +8,9 @@
     "login": "Login",
     "register": "Register",
     "logout": "Logout",
-    "download": "Download"
+    "download": "Download",
+    "ranking": "Ranking",
+    "resurrect": "Resurrect"
   },
   "footer": {
     "brand": "Shaiya Centurion",
@@ -85,15 +87,16 @@
   "login": {
     "title": "Sign In",
     "subtitle": "Enter the battlefield",
-    "email-label": "Email",
-    "email-placeholder": "your@email.com",
+    "username-label": "Username",
+    "username-placeholder": "Your username",
     "password-label": "Password",
     "password-placeholder": "Your password",
     "submit": "Sign In",
     "loading": "Signing in...",
-    "error": "Invalid email or password. Please try again.",
+    "error": "Invalid username or password. Please try again.",
     "no-account": "Don't have an account?",
     "register-link": "Create one",
+    "forgot-password": "Forgot my password",
     "or": "or",
     "google-login": "Continue with Google"
   },

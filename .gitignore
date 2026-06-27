@@ -6,3 +6,13 @@ out
 .env.*.local
 *.log
 .DS_Store
+
+# Arquivos do jogo (muito grandes para o git)
+Copia Segura Centuryons/
+copia_segura_centuryons/
+*.saf
+*.sah
+*.exe
+*.dll
+*.bak
+*.zip

@@ -8,7 +8,9 @@
     "login": "Entrar",
     "register": "Registrarse",
     "logout": "Salir",
-    "download": "Download"
+    "download": "Download",
+    "ranking": "Ranking",
+    "resurrect": "Resurrección"
   },
   "footer": {
     "brand": "Shaiya Centurion",
@@ -85,15 +87,16 @@
   "login": {
     "title": "Iniciar Sesión",
     "subtitle": "Entra al campo de batalla",
-    "email-label": "Correo electrónico",
-    "email-placeholder": "tu@email.com",
+    "username-label": "Usuario",
+    "username-placeholder": "Tu nombre de usuario",
     "password-label": "Contraseña",
     "password-placeholder": "Tu contraseña",
     "submit": "Iniciar Sesión",
     "loading": "Iniciando sesión...",
-    "error": "Correo o contraseña inválidos. Inténtalo de nuevo.",
+    "error": "Usuario o contraseña inválidos. Inténtalo de nuevo.",
     "no-account": "¿No tienes una cuenta?",
     "register-link": "Crea una",
+    "forgot-password": "Olvidé mi contraseña",
     "or": "o",
     "google-login": "Continuar con Google"
   },

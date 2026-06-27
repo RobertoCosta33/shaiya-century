@@ -25,6 +25,19 @@ export const Subtitle = styled.p`
   margin-bottom: 0.8rem;
 `;
 
+export const ForgotLink = styled.div`
+  text-align: right;
+  margin-top: -1.2rem;
+
+  a {
+    font-size: 1.3rem;
+    color: ${({ theme }) => theme.colors.textMuted};
+    transition: color 0.15s;
+
+    &:hover { color: ${({ theme }) => theme.colors.primary}; }
+  }
+`;
+
 export const LinkText = styled.p`
   font-size: 1.4rem;
   color: ${({ theme }) => theme.colors.textMuted};
@@ -40,55 +53,4 @@ export const ErrorMessage = styled.div`
   color: ${({ theme }) => theme.colors.error};
   font-size: 1.3rem;
   text-align: center;
-`;
-
-export const Divider = styled.div`
-  display: flex;
-  align-items: center;
-  gap: 1.2rem;
-  margin: 0.4rem 0;
-`;
-
-export const DividerLine = styled.span`
-  flex: 1;
-  height: 1px;
-  background: ${({ theme }) => theme.colors.border};
-`;
-
-export const DividerText = styled.span`
-  font-size: 1.2rem;
-  color: ${({ theme }) => theme.colors.textMuted};
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  white-space: nowrap;
-`;
-
-export const GoogleButton = styled.button`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1.2rem;
-  width: 100%;
-  padding: 1.2rem 2rem;
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid ${({ theme }) => theme.colors.border};
-  border-radius: 0.6rem;
-  color: ${({ theme }) => theme.colors.text};
-  font-size: 1.4rem;
-  font-weight: 600;
-  letter-spacing: 0.03em;
-  cursor: pointer;
-  transition: all 0.2s ease;
-
-  &:hover:not(:disabled) {
-    background: rgba(255, 255, 255, 0.08);
-    border-color: rgba(255, 255, 255, 0.25);
-    transform: translateY(-1px);
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
-  }
-
-  &:disabled {
-    opacity: 0.5;
-    cursor: not-allowed;
-  }
 `;
