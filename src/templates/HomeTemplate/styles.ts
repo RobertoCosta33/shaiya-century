@@ -397,6 +397,154 @@ export const ClassTag = styled.span`
   backdrop-filter: blur(6px);
 `;
 
+/* ─── DOWNLOAD ────────────────────────────────────────────── */
+
+export const DownloadSection = styled.section`
+  padding: 8rem 3.2rem;
+  background: ${({ theme }) => theme.colors.background};
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 50%; transform: translateX(-50%);
+    width: 80rem;
+    height: 1px;
+    background: linear-gradient(to right, transparent, ${({ theme }) => theme.colors.border}, transparent);
+  }
+`;
+
+export const DownloadInner = styled.div`
+  max-width: 72rem;
+  margin: 0 auto;
+  text-align: center;
+  padding: 5.6rem 4rem;
+  border: 1px solid ${({ theme }) => theme.colors.border};
+  border-radius: 1.6rem;
+  background: rgba(17, 24, 39, 0.7);
+  backdrop-filter: blur(8px);
+  position: relative;
+  overflow: hidden;
+
+  /* brilho dourado no topo */
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: linear-gradient(
+      to right,
+      transparent,
+      ${({ theme }) => theme.colors.primary},
+      transparent
+    );
+  }
+
+  /* brilho radial sutil */
+  &::after {
+    content: "";
+    position: absolute;
+    top: -40%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60rem;
+    height: 40rem;
+    background: radial-gradient(ellipse, rgba(201,162,39,0.06) 0%, transparent 70%);
+    pointer-events: none;
+  }
+`;
+
+export const DownloadIcon = styled.div`
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  background: rgba(201, 162, 39, 0.08);
+  border: 1px solid rgba(201, 162, 39, 0.25);
+  color: ${({ theme }) => theme.colors.primary};
+  margin-bottom: 2.4rem;
+`;
+
+export const DownloadTitle = styled.h2`
+  font-family: ${({ theme }) => theme.fonts.primary};
+  font-size: 4rem;
+  font-weight: 700;
+  color: ${({ theme }) => theme.colors.text};
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+`;
+
+export const DownloadDescription = styled.p`
+  font-size: 1.7rem;
+  color: ${({ theme }) => theme.colors.textMuted};
+  line-height: 1.7;
+  max-width: 46rem;
+  margin: 0 auto 3.2rem;
+`;
+
+export const DownloadMeta = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+  flex-wrap: wrap;
+  margin-bottom: 4rem;
+`;
+
+export const DownloadMetaItem = styled.span`
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: ${({ theme }) => theme.colors.textMuted};
+  text-transform: uppercase;
+
+  svg { color: ${({ theme }) => theme.colors.primary}; }
+`;
+
+export const DownloadMetaDot = styled.span`
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: ${({ theme }) => theme.colors.border};
+`;
+
+export const DownloadButton = styled.a`
+  display: inline-flex;
+  align-items: center;
+  gap: 1.2rem;
+  padding: 1.6rem 4rem;
+  background: ${({ theme }) => theme.colors.primary};
+  color: ${({ theme }) => theme.colors.textDark};
+  font-family: ${({ theme }) => theme.fonts.primary};
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 0.6rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 0 3.2rem rgba(201, 162, 39, 0.3);
+
+  &:hover {
+    background: ${({ theme }) => theme.colors.primaryLight};
+    color: ${({ theme }) => theme.colors.textDark};
+    transform: translateY(-2px);
+    box-shadow: 0 0 4.8rem rgba(201, 162, 39, 0.5);
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+`;
+
 /* ─── CTA ─────────────────────────────────────────────────── */
 
 export const CtaSection = styled.section`

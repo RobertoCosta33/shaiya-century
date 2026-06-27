@@ -158,6 +158,57 @@ const HomeTemplate = () => {
         </S.FactionsInner>
       </S.FactionsSection>
 
+      {/* DOWNLOAD */}
+      <S.DownloadSection id="download">
+        <S.DownloadInner>
+          <S.DownloadIcon>
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+              <polyline points="7 10 12 15 17 10"/>
+              <line x1="12" y1="15" x2="12" y2="3"/>
+            </svg>
+          </S.DownloadIcon>
+          <S.DownloadTitle>Baixe o Jogo</S.DownloadTitle>
+          <S.DownloadDescription>
+            Cliente completo do Shaiya Centurion. Gratuito, sem anúncios, sem pay-to-win.
+          </S.DownloadDescription>
+          <S.DownloadMeta>
+            <S.DownloadMetaItem>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/>
+              </svg>
+              Windows 7 / 10 / 11
+            </S.DownloadMetaItem>
+            <S.DownloadMetaDot />
+            <S.DownloadMetaItem>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+              </svg>
+              ~2.6 GB
+            </S.DownloadMetaItem>
+            <S.DownloadMetaDot />
+            <S.DownloadMetaItem>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              </svg>
+              100% Gratuito
+            </S.DownloadMetaItem>
+          </S.DownloadMeta>
+          <S.DownloadButton
+            href="https://mega.nz/file/2awERLKb#EkFdBAPOlglyWDTx0_eQ5r7EE32UtznwxiSmXSqEqqU"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+              <polyline points="7 10 12 15 17 10"/>
+              <line x1="12" y1="15" x2="12" y2="3"/>
+            </svg>
+            Download via MEGA
+          </S.DownloadButton>
+        </S.DownloadInner>
+      </S.DownloadSection>
+
       {/* CTA */}
       <S.CtaSection>
         <S.CtaBg>

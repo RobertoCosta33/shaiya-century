@@ -23,6 +23,7 @@ const Header = () => {
         <S.NavLink href="/">{t("home")}</S.NavLink>
         <S.NavLink href="#features">{t("features")}</S.NavLink>
         <S.NavLink href="#classes">{t("classes")}</S.NavLink>
+        <S.NavLink href="#download">{t("download")}</S.NavLink>
       </S.Nav>
 
       <S.AuthButtons>
